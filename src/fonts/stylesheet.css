@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'TT Neoris Trial';
+    src: url('TTNeorisTrial-DmBd.eot');
+    src: url('TTNeorisTrial-DmBd.eot?#iefix') format('embedded-opentype'),
+        url('TTNeorisTrial-DmBd.woff2') format('woff2'),
+        url('TTNeorisTrial-DmBd.woff') format('woff'),
+        url('TTNeorisTrial-DmBd.ttf') format('truetype'),
+        url('TTNeorisTrial-DmBd.svg#TTNeorisTrial-DmBd') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

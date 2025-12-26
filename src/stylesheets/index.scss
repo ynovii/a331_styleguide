@@ -1,0 +1,400 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: 'Fors Trial Rg';
+    background-color: #ffffff;
+    color: #252219;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6, 
+.row-label, 
+.main-title, 
+.grid-title, 
+.typo-label-big, 
+.typo-label-sub, 
+.rule-title,
+.about_header__nav a,
+.value-item strong,
+.about_header__description p,
+.stats-bar,
+.color-card {
+    font-family: 'Neoris Trial', sans-serif;
+}
+
+
+.about_header__container {
+    
+    background-image: url('../images/bggg_style.png'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 85vh; 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+    
+    padding: 40px 0; 
+}
+
+
+.about_header__menu {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 1510px; 
+    padding: 20px 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fors Trial Rg';
+    margin-bottom: auto; 
+    margin-left: 40px; 
+    margin-right: 40px;
+    
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.about_header__nav {
+  font-family: 'Fors Trial Rg';
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about_header__nav a {
+    color: black;
+  text-decoration: none;
+  margin: 20px;
+  text-underline-offset: 4px;
+  font-family: 'Fors Trial Rg';
+}
+
+.about_header__nav a:hover {
+text-decoration: underline;
+}
+
+/* Текст и лого в шапке */
+.about_header__text {
+    width: 100%;
+    max-width: 1510px;
+    padding: 0 40px;
+    color: #FFFFFF;
+    text-align: left; 
+    margin-top: 60px;
+    padding-bottom: 100px; 
+}
+
+.about_header__img img {
+    max-width: 300px; 
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.about_header__description p {
+    font-size: 96px; 
+    font-weight: 900;
+    line-height: 1;
+    margin: 0;
+}
+
+
+.main-container {
+    width: 100%;                
+    background-color: #ffffff;
+    
+   
+    border-radius: 60px 60px 0 0; 
+    margin-top: -80px;          
+    padding-top: 100px;       
+    padding-bottom: 100px;
+    
+    position: relative;
+    z-index: 2;               
+}
+
+
+.container,
+.guide-wrapper,
+.grid-section {
+    width: 100%;
+    max-width: 1510px;          
+    margin: 0 auto;             
+    padding-left: 40px;         
+    padding-right: 40px;
+}
+
+
+.content-row, 
+.content-grid {
+    display: grid;
+    
+    grid-template-columns: 350px 1fr; 
+    gap: 60px;
+    margin-bottom: 100px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #eee;}
+
+
+.grid-section, 
+.merch-container {
+    display: block;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.row-label, 
+.main-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #252219;
+    margin: 0;
+    line-height: 1.1;
+}
+
+
+.row-text,
+.right-col {
+    max-width: 100%;
+}
+
+.row-text p {
+    font-size: 20px; 
+    margin-bottom: 30px;
+    color: #504D4B;
+    line-height: 1.6;
+    max-width: 800px; 
+}
+
+
+.values-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px;
+}
+
+.value-item strong {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+
+.logo-display-large {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    margin: 80px 0;
+    width: 100%;
+}
+.logo-display-large img { max-width: 80%; height: auto; }
+
+.logo-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    margin-bottom: 80px;
+    max-width: 900px;
+}
+
+.detail-item h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.logo-variants-bottom {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.variant-card {
+    flex: 1;
+    border-radius: 30px;
+    aspect-ratio: 16 / 10; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #eee; 
+}
+
+.card-1 { background-image: url('../images/image_style1.png'); }
+.card-2 { background-image: url('../images/sand.png'); }
+.card-3 { background-image: url('../images/forest_bg.png'); }
+
+
+.color-palette {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.color-card {
+    width: 232px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 900;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.stats-bar {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #eee;
+}
+.stat-segment { display: flex; align-items: center; justify-content: center; height: 100%; white-space: nowrap; }
+.seg-60 { width: 60%; background-color: #ffffff; color: #000; border-right: 1px solid #ddd; }
+.seg-20 { width: 20%; background-color: #504D4B; color: #fff; }
+.seg-5  { width: 5%; background-color: #252219; color: #fff; font-size: 16px; }
+.seg-15 { width: 15%; background-color: #B4451D; color: #fff; }
+
+.grid-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #1a1a1a;
+    
+    padding-bottom: 5px;
+    margin-bottom: 60px;
+    display: inline-block;
+}
+
+.grid-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 140px;
+    gap: 20px; 
+    margin-bottom: 40px;
+}
+.grid-col { 
+    flex: 1; 
+    background: linear-gradient(180deg, #B4451D 0%, rgba(180, 69, 29, 0) 100%); 
+    border-radius: 4px;
+}
+.grid-info { 
+    display: flex; 
+    justify-content: flex-start; 
+    gap: 80px; 
+    color: #888; 
+    font-size: 18px;
+    font-family: 'Fors Trial Rg', sans-serif;
+}
+
+
+.separator-image {
+    width: 100%;
+    height: 820px; 
+    
+    background-image: url('../images/style.png'); 
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 120px; 
+}
+
+
+.guide-section {
+    margin-bottom: 150px;
+}
+
+
+.typo-block {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+
+.typo-row {
+    display: grid;
+    grid-template-columns: 250px 1fr; 
+    align-items: baseline;
+    gap: 30px;
+}
+
+.typo-label-big { 
+    font-size: 36px; 
+    font-weight: 900; 
+    color: #000;
+}
+
+.typo-label-sub {
+    font-size: 24px; 
+    font-weight: 900; 
+    color: #000;
+}
+
+
+.f-96 { font-size: 90px; font-weight: 900; line-height: 1; margin: 0; font-family: 'Neoris Trial';}
+.f-50 { font-size: 50px; font-weight: 900; margin: 0; font-family: 'Neoris Trial';}
+.f-40 { font-size: 40px; font-weight: 900; margin: 0; font-family: 'Neoris Trial';}
+.f-32 { font-size: 32px; font-weight: 200; margin: 0; font-family: 'Fors Trial Rg';}
+
+.font-desc { 
+    margin-top: 60px; 
+    color: #666; 
+    max-width: 500px;
+    font-size: 18px;
+}
+
+
+.photo-rule { 
+    margin-bottom: 60px; 
+    border-left: 4px solid #eee; 
+    padding-left: 30px;
+}
+.rule-title { font-size: 32px; font-weight: 900; margin-bottom: 15px; }
+.rule-text { max-width: 700px; color: #444; font-size: 20px; }
+
+
+.merch-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 60px;
+}
+.merch-box {
+    background-color: #B4451D; 
+    border-radius: 30px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.card-merch-1 {
+  background-image: url(../images/t-shirt.png);
+}
+.card-merch-2 {
+  background-image: url(../images/cup.png);
+}
+.card-merch-3 {
+  background-image: url(../images/termos.png);
+}
+.card-merch-4 {
+  background-image: url(../images/bug.png);
+}
+.wide-box { height: 600px; }
+.merch-row-split { display: flex; gap: 30px; }
+.half-box { height: 700px; flex: 1; }
